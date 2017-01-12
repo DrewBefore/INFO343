@@ -1,0 +1,12 @@
+p {
+	line-height: 1.5px;
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
+	font-size: 16px;
+}
+
+.myPicture{
+	max-width: 400px;
+}

@@ -1,0 +1,52 @@
+/*
+ *  This file should contain your custom style rules.
+ */
+
+.alert {
+    display: none;
+}
+
+.alert.active {
+    display: block;
+}
+
+#logout {
+    float: right;
+}
+
+.message {
+    border: solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.messageImg {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.name {
+    display: inline;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.timeStamp {
+
+}
+
+.edit {
+    
+}
+
+.edit:hover, .erase:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.timeStamp, .edit, .erase {
+    display: inline;
+    text-transform: capitalize;
+    color: gray;
+}
